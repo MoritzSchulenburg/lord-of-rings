@@ -14,8 +14,9 @@ export default function fellowship() {
         ))}
       </ul>
       <Image src={volume.cover} alt={volume.title} width={140} height={230} />
-      <Link href="/volumes/the-return-of-the-king">next Volume</Link>;
       <Link href="/volumes/the-fellowship-of-the-ring">previous Volume</Link>;
+      <br />
+      <Link href="/volumes/the-return-of-the-king">next Volume</Link>;
     </>
   );
 }
